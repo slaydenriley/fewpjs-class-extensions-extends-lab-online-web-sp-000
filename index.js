@@ -15,5 +15,5 @@ class Polygon {
         sum += int
       }
       return sum
-    }
+    };
 }
