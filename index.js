@@ -9,11 +9,11 @@ class Polygon {
   };
 
   get perimeter() {
-      if (!Array.isArray(this.sides)) return;
+    if (!Array.isArray(this.sides)) return;
       let sum = 0;
       for (var int of this.sides) {
         sum += int
-      }
-      return sum
+    }
+    return sum
   };
 }
